@@ -1,0 +1,14 @@
+{
+  "name": "svgapp",
+  "displayName": "svgapp.ai",
+  "version": "1.0.0",
+  "description": "Create a brand mascot, generate consistent poses, animations and UI illustrations, and add them to your app as SVG, transparent PNG or WebM.",
+  "author": { "name": "svgapp.ai", "url": "https://svgapp.ai" },
+  "homepage": "https://svgapp.ai/",
+  "repository": "https://github.com/xz3dev/svgapp-mcp",
+  "license": "MIT",
+  "keywords": ["mascot", "character", "illustration", "svg", "animation", "transparent-png", "empty-state", "onboarding", "design"],
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

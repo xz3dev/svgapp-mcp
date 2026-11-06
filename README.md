@@ -62,6 +62,23 @@ url = "https://web.svgapp.ai/mcp"
 
 [Full guide](https://svgapp.ai/blog/codex-mascot-design/)
 
+### Cline
+
+Add the server to `cline_mcp_settings.json`, then authenticate it in Cline's MCP servers view:
+
+```json
+{
+  "mcpServers": {
+    "svgapp": {
+      "type": "streamableHttp",
+      "url": "https://web.svgapp.ai/mcp"
+    }
+  }
+}
+```
+
+Agents can follow [`llms-install.md`](llms-install.md) to set this up for you.
+
 ### Windsurf and other clients
 
 Any client that supports remote MCP servers with OAuth can connect to `https://web.svgapp.ai/mcp`. For Windsurf, add the server to `~/.codeium/windsurf/mcp_config.json`:
